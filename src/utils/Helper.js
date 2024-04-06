@@ -9,8 +9,8 @@ const TWITTER = "https://twitter.com/AyushmanGarg4";
 const GITHUB = "https://github.com/ayushmangarg2003";
 const MAIL = "https://mail.google.com/mail/u/0/?fs=1&to=ayushmangarg929@gmail.com&tf=cm";
 const CV = "https://flowcv.com/resume/dus4f2v67p";
-const DETAILS_1 = "Hi, my name is Ayushman Garg, and I am a MERN stack web developer as well as a React Native developer. My passion for computers brought me to Maharaja Agrasen Institute of Technology, where I am pursuing my Bachelor's degree in Information Technology. I specialize in creating websites using the MERN stack, and I am also a quick learner, capable of adapting to new environments and technologies."
-const DETAILS_2 = "I was initially introduced to programming in school through the Python language. Subsequently, during my first year of college, I started learning web development. Since then, I have gained experience working with technologies like HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, React Native, and various other frameworks."
+const DETAILS_1 = "Hi, my name is Ayushman Garg, I am passionate about MERN stack web development, React Native, and exploring generative AI for crafting intuitive user experiences. I am committed to continuous learning and contributing positively to software development projects, seeking opportunities to gain hands-on experience and grow in the field."
+const DETAILS_2 = "My programming journey started with Python in school and evolved during my first year of college into a passion for web development, and then into Machine Learning. Since then, I have gained experience working with technologies like HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, React Native, Dialogflow and various other frameworks."
 
 
 module.exports = {

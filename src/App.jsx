@@ -20,15 +20,15 @@ const App = () => {
                 <Home />
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="300" className="AboutSection">
+            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="AboutSection">
                 <About />
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="300" className="CerSection">
+            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="CerSection">
                 <Certificates />
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="300" className='ProjectSection'>
+            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className='ProjectSection'>
                 <Projects />
             </div>
             <Footer />

@@ -6,6 +6,14 @@ import myprojects from "./assets/MyProjects.webp"
 import doccare from "./assets/doccare.webp"
 
 const Projects = [
+     {
+        title: "Homestayz",
+        image: doccare,
+        desc: "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
+        githubLink: "https://github.com/ayushmangarg2003/Homestayz",
+        demoLink: "https://homestayz.vercel.app/",
+        tags: ["MERN"]
+    },
     {
         title: "DocCARE",
         image: doccare,
@@ -21,14 +29,6 @@ const Projects = [
         githubLink: "https://github.com/ayushmangarg2003/Blogs_MERN",
         demoLink: "https://blogs-mern-pi.vercel.app/",
         tags: ["MERN"]
-    },
-    {
-        title: "Crypto Exchange",
-        image: crypto,
-        desc: "A project utilizing ReactJs and its component library, Chakra UI, was developed with an API-based approach. It enables users to track the real-time pricing of various cryptocurrencies.",
-        githubLink: "https://github.com/ayushmangarg2003/crypto-exchange-react-app",
-        demoLink: "https://crypto-exchange-react-app.vercel.app/",
-        tags: ["ChakraUi","ReactJs","API"]
     },
     {
         title: "Web Agent",

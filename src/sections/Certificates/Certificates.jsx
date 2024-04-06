@@ -16,7 +16,7 @@ const Certificates = () => {
 });
   return (
     <div className='certificateParent'>
-      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="500" className="techstack">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" className="techstack">
         <SubHeader heading='Tech Stack' />
         <div className="tech">
           {
@@ -27,7 +27,7 @@ const Certificates = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="500" className="certificateContainer">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" className="certificateContainer">
         <SubHeader heading='Certificates' />
         {CertificatesDetails.map((item) => (
           <CertificateCard key={item.title} title={item.title} link={item.link} organisation={item.organisation} logo={item.logo} />

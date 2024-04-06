@@ -51,7 +51,7 @@ const Projects = [
         image: myprojects,
         desc: "This is a website that contains all my projects, it showcases my skills in a more systematic and compact form",
         githubLink: "https://github.com/ayushmangarg2003/MyProjects",
-        demoLink: "https://my-projects-smoky-two.vercel.app/",
+        demoLink: "https://ayushmanprojects.vercel.app/",
         tags: ["HTML","CSS","Javascript"]
     },
 

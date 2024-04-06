@@ -12,37 +12,21 @@
 .CerSection {
     max-width: 1300px;
     margin: 0 auto;
-    min-height: 100vh;
+    padding: 6rem 0;
+    height: auto;
 }
 .AboutSection {
     max-width: 1300px;
     margin: 0 auto;
-    min-height: 100vh;
+    padding: 6rem 0;
 }
 .HomeSection{
     max-width: 1300px;
     margin: 0 auto;
-    height: 100vh;
+    padding: 6rem 0;
+
 }
 .ProjectSection {
     max-width: 1300px;
     margin: 0 auto;
-}
-
-@media only screen and (max-width:1000px){
-    .CerSection {
-        padding: 6rem 0;
-        min-height:0;
-        height: auto;
-    }
-    .AboutSection {
-        padding: 6rem 0;
-        min-height:0;
-        height: auto;
-    }
-    .HomeSection{
-        padding: 6rem 0;
-        min-height:0;
-        height: auto;
-    }
 }

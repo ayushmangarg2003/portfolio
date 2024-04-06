@@ -1,14 +1,14 @@
 import tureblog from "./assets/TrueBlog.webp"
-import crypto from "./assets/CryptoExchange.webp"
 import webagent from "./assets/WebAgent.webp"
 import travel from "./assets/TravelArc.webp"
 import myprojects from "./assets/MyProjects.webp"
 import doccare from "./assets/doccare.webp"
+import homestayz from "./assets/homestayz.webp"
 
 const Projects = [
      {
         title: "Homestayz",
-        image: doccare,
+        image: homestayz,
         desc: "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
         githubLink: "https://github.com/ayushmangarg2003/Homestayz",
         demoLink: "https://homestayz.vercel.app/",

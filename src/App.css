@@ -12,12 +12,12 @@
 .CerSection {
     max-width: 1300px;
     margin: 0 auto;
-    height: 110vh;
+    min-height: 100vh;
 }
 .AboutSection {
     max-width: 1300px;
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
 }
 .HomeSection{
     max-width: 1300px;
@@ -29,7 +29,19 @@
     margin: 0 auto;
 }
 @media only screen and (max-width:755px){
-    .CerSection{
+    .CerSection {
+        padding: 5rem 0;
+        min-height:0;
+        height: auto;
+    }
+    .AboutSection {
+        padding: 5rem 0;
+        min-height:0;
+        height: auto;
+    }
+    .HomeSection{
+        padding: 5rem 0;
+        min-height:0;
         height: auto;
     }
 }

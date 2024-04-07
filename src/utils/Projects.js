@@ -12,7 +12,7 @@ const Projects = [
         desc: "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
         githubLink: "https://github.com/ayushmangarg2003/Homestayz",
         demoLink: "https://homestayz.vercel.app/",
-        tags: ["MERN"]
+        tags: ["MERN", "Dialogflow"]
     },
     {
         title: "DocCARE",

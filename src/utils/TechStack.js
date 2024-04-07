@@ -8,6 +8,8 @@ import mongo from './assets/mongo-db.webp'
 import mysql from './assets/mysql.webp'
 import python from './assets/python.webp'
 import tailwind from './assets/tailwind.webp'
+import git from './assets/git.webp'
+import github from './assets/github.webp'
 
 const TechStack = [
     {
@@ -53,6 +55,14 @@ const TechStack = [
     {
         icon: tailwind,
         tech: "Tailwind"
+    },
+    {
+        icon: git,
+        tech: "Git"
+    },
+    {
+        icon: github,
+        tech: "Github"
     },
 ]
 export default TechStack;

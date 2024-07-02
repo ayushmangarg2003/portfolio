@@ -7,6 +7,7 @@ import Projects from './sections/Projects/Projects'
 import Footer from './components/Footer/Footer'
 import "aos/dist/aos.css";
 import AOS from "aos";
+import Experience from './sections/Experience/Experience'
 
 const App = () => {
     useEffect(() => {
@@ -22,6 +23,10 @@ const App = () => {
 
             <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="AboutSection">
                 <About />
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="AboutSection">
+                <Experience />
             </div>
 
             <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="CerSection">

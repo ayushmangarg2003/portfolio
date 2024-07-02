@@ -1,0 +1,22 @@
+.expcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:700px) {
+    .expcontainer {
+        padding: 2rem 0;
+    }
+}

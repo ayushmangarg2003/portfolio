@@ -1,5 +1,11 @@
 const experienceData = [
     {
+        time: 'Apr 24 - Present',
+        role: "Software Developer Intern",
+        company: 'HDD Ventures',
+        details: 'Building Scalable Products from scratch using MERN Stack, Wordpress and Python for different AI Applications.'
+    },
+    {
         time: 'Apr 24 - Jun 24',
         role: "Frontend Developer Intern",
         company: 'Matrixly AI',

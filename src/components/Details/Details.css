@@ -1,21 +1,20 @@
-.details {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.75rem;
-    padding: 0 5rem;
+section {
+    display: grid;
+    padding: 1rem 16px;
+    place-content: center;
+}
+
+section p {
+    margin: 0;
+    font-size: 1.7rem;
     text-align: justify;
-    color: #dedede;
-    margin: 1rem 0;
+    white-space: wrap;
+    line-height: 1.4;
 }
 
 @media only screen and (max-width:700px) {
-    .details {
-        padding: 0 1rem;
+    section p {
+        font-size: 1.5rem;
     }
-}
-@media only screen and (max-width:550px) {
-    .details {
-        font-size: 1rem;
-        line-height: 1.3rem;
-    }
+
 }

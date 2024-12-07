@@ -10,11 +10,13 @@ import AOS from "aos";
 import Experience from './sections/Experience/Experience'
 
 const App = () => {
+    
     useEffect(() => {
         AOS.init({
             once: false,
         });
     });
+
     return (
         <div className='app'>
             <div data-aos="fade-down" data-aos-duration="800" className="HomeSection">

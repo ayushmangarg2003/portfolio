@@ -1,21 +1,23 @@
-section {
+.detail-section {
     display: grid;
-    padding: 1rem 16px;
+    padding-top: 1rem;
+    padding-left: 16px;
+    padding-right: 16px;
     place-content: center;
 }
 
-section p {
-    margin: 0;
-    font-size: 1.7rem;
+.reveal-type {
+    font-size: 1.6rem;
     text-align: justify;
     white-space: wrap;
     line-height: 1.4;
+    font-family: 'Roboto';
 }
 
 @media only screen and (max-width:700px) {
     section p {
-        font-size: 1.25rem;
-        line-height: 1.2;
+        font-size: 1.2rem;
+        line-height: 1.3;
     }
 
 }

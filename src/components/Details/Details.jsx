@@ -60,7 +60,7 @@ const Details = (props) => {
 
   return (
     <div>
-      <section ref={(el) => (sectionRefs.current[0] = el)}>
+      <section className='detail-section' ref={(el) => (sectionRefs.current[0] = el)}>
         <p
           className="reveal-type"
           data-bg-color="#333"

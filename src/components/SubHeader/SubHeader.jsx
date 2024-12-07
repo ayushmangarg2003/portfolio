@@ -1,10 +1,14 @@
-import React from 'react'
-import './SubHeader.css'
+import React from 'react';
+import './SubHeader.css';
 
 const SubHeader = (props) => {
   return (
-    <span className='subheading'>{props.heading}</span>
-  )
-}
+    <div className='header'>
+      <section>
+        <p className='subhead'>{props.heading}</p>
+      </section>
+    </div>
+  );
+};
 
-export default SubHeader
+export default SubHeader;

@@ -1,8 +1,49 @@
-.subheading{
+.header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.25rem;
     text-align: center;
-    border-bottom: 4px solid rgb(33, 150, 243);
     font-weight: 600;
-    margin-bottom: 1rem;
+}
+
+
+.subhead {
+    font-size: 2.5rem;
+    background-color: #f6f6f6;
+    background-size: 400% 600%;
+    -webkit-background-clip: text;
+    background-position: 50% 0;
+    color: transparent;
+    opacity: 0;
+    animation: move-bg both linear, fade-in both linear;
+    -webkit-text-stroke-width: 0px;
+    letter-spacing: 8px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+    animation-duration: 1s;
+    text-shadow:
+        2px 2px 0px #fff,
+        -2px 2px 1px #fff,
+        -2px -2px 0px #fff,
+        2px -2px 0px #fff;
+    animation-timeline: scroll(root);
+    animation-range: 0 75vh, 40vh 80vh;
+}
+
+
+@keyframes fade-in {
+    to {
+        opacity: var(--opacity, 1);
+    }
+}
+
+@keyframes move-bg {
+    to {
+        background-position: 50% 100%;
+    }
+}
+
+@media only screen and(max-width:700px) {
+    .subhead {
+        font-size: 2rem;
+    }
 }

@@ -10,6 +10,7 @@ import python from './assets/python.webp'
 import tailwind from './assets/tailwind.webp'
 import git from './assets/git.webp'
 import github from './assets/github.webp'
+import next from './assets/nextjs.svg'
 
 const TechStack = [
     {
@@ -31,6 +32,10 @@ const TechStack = [
     {
         icon: react,
         tech: "React Native"
+    },
+    {
+        icon: next,
+        tech: "NextJS"
     },
     {
         icon: node,

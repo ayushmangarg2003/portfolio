@@ -1,6 +1,6 @@
 const experienceData = [
     {
-        time: 'Apr 24 - Present',
+        time: 'Apr 24 - Nov 24',
         role: "Software Developer Intern",
         company: 'HDD Ventures',
         details: 'Building Scalable Products from scratch using MERN Stack, Wordpress and Python for different AI Applications.'

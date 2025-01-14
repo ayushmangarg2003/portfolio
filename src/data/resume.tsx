@@ -88,19 +88,7 @@ export const DATA = {
       end: "June 2024",
       description:
         "At Matrixly AI, I worked as a Frontend Developer Intern, where I specialized in building and optimizing React components to enhance performance and maintainability. I implemented various user interface improvements, ensuring a seamless and engaging user experience for the application. Collaborating closely with the design and backend teams, I contributed to delivering responsive and interactive solutions, further strengthening my expertise in React.js and frontend development best practices.",
-    },
-    {
-      company: "CodSoft",
-      href: "",
-      badges: [],
-      location: "India",
-      title: "Web Developer Intern",
-      logoUrl: "/codsoft.jpeg",
-      start: "Jul 2023",
-      end: "Aug 2023",
-      description:
-        "At CodSoft, I worked as a Web Developer Intern, where I developed three projects within a one-month timeframe to enhance my practical skills in web development. These projects involved building responsive and visually appealing web interfaces using HTML, CSS, and JavaScript. This internship provided me with hands-on experience in managing tight deadlines, improving my coding efficiency, and delivering quality web applications within short timeframes.",
-    },
+    }
   ],
 
   education: [

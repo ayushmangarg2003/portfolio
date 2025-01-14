@@ -8,11 +8,7 @@ interface Props {
   dates: string;
   location: string;
   image?: string;
-  links?: readonly {
-    icon: React.ReactNode;
-    title: string;
-    href: string;
-  }[];
+  links?: string;
 }
 
 export function HackathonCard({

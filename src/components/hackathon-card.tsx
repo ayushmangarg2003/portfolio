@@ -42,7 +42,7 @@ export function HackathonCard({
         )}
       </div>
       <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
-        <Link target="blank" href={links} >
+        <Link target="blank" href={links ?? "#"} >
           <p className="text-xs ">
             View Credential
           </p>

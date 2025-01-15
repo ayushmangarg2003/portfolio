@@ -1,15 +1,18 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { CircleUser } from "lucide-react";
 
 export const DATA = {
   name: "Ayushman Garg",
   initials: "AG",
-  url: "https://ayushman.vercel.app",
+  url: "https://ayushmangarg.in",
   location: "Delhi, IN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer trying to figure out technology ",
-  summary: "I am a passionate [Full Stack Developer](#) with a strong foundation in the MERN stack, React Native, and a growing expertise in Generative AI. My journey in programming began with Python during school, which evolved into a deep enthusiasm for web development and machine learning in college. Over the years, I have honed my skills in technologies like HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, Next.js, and more, enabling me to design and implement scalable, user-friendly applications. My experience includes impactful internships, such as building and optimizing web applications at [Matrixly AI](#) and [HDD Ventures](#).",
+  summary: "I’m a passionate **Full Stack Developer** with a solid foundation in the **MERN stack**, **React Native**, and a growing interest in **Generative AI**. My programming journey began with Python back in school, which eventually sparked my enthusiasm for web development and machine learning during college. Over time, I’ve sharpened my skills in technologies like **HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, Next.js**, and more, allowing me to build scalable and user-friendly applications. I’ve had the privilege of working on impactful projects during my internships at **Matrixly AI** and **HDD Ventures**, where I focused on building and optimizing web applications.",
+
+  summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if you’d like to connect or discuss exciting opportunities! You can also connect with me through my socials like [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
+
   avatarUrl: "/me.png",
   skills: [
     "HTML",
@@ -28,7 +31,7 @@ export const DATA = {
     "Github"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://flowcv.com/resume/dus4f2v67p", icon: CircleUser, label: "Resume" },
   ],
   contact: {
     email: "ayushmangarg929@gmail.com",
@@ -113,7 +116,7 @@ export const DATA = {
   projects: [
     {
       title: "Homestayz",
-      href: "https://github.com/ayushmangarg2003/Homestayz",
+      href: "https://homestayz.vercel.app/",
       dates: "",
       active: true,
       description:
@@ -125,7 +128,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/ayushmangarg2003/Homestayz",
+          href: "https://homestayz.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {

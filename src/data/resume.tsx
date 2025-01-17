@@ -13,7 +13,7 @@ export const DATA = {
 
   summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if you’d like to connect or discuss exciting opportunities! You can also connect with me through my socials like [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
 
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "HTML",
     "CSS",
@@ -86,7 +86,7 @@ export const DATA = {
       href: "https://www.linkedin.com/company/matrixly-ai",
       location: "Remote, Australia",
       title: "Frontend Developer Intern",
-      logoUrl: "/matrixly.jpeg",
+      logoUrl: "/matrixly.webp",
       start: "Apr 2024",
       end: "June 2024",
       description:
@@ -99,7 +99,7 @@ export const DATA = {
       school: "Maharaja Agrasen Institue of Technology",
       href: "https://mait.ac.in/",
       degree: "Bachelors of Technology, Information Technology",
-      logoUrl: "/mait.jpeg",
+      logoUrl: "/mait.webp",
       start: "2021",
       end: "2025",
     },
@@ -107,7 +107,7 @@ export const DATA = {
       school: "Modern Public School",
       href: "http://www.mpsshalimarbagh.com/",
       degree: "Class 12th",
-      logoUrl: "/mps.jpeg",
+      logoUrl: "/mps.webp",
       start: "2020",
       end: "2021",
     },
@@ -229,7 +229,7 @@ export const DATA = {
       description:
         "IBM",
       image:
-        "/ibm.png",
+        "/ibm.webp",
       links: "https://coursera.org/share/cc391d4b518949d92919e8454fd7bc94",
     },
     {
@@ -239,7 +239,7 @@ export const DATA = {
       description:
         "IBM",
       image:
-        "/ibm.png",
+        "/ibm.webp",
       links: "https://www.coursera.org/account/accomplishments/verify/265T5JA3FAK9",
     },
     {

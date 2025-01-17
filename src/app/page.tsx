@@ -1,5 +1,5 @@
 'use client'
-import { HackathonCard } from "@/components/hackathon-card";
+import { CertificateCard } from "@/components/certificate-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -182,7 +182,7 @@ export default function Page() {
       </div>
 
       <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="AboutSection">
-        <section id="hackathons">
+        <section id="certificates">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <div className="flex flex-col items-center justify-center text-center">
@@ -198,7 +198,7 @@ export default function Page() {
                     key={project.title + project.dates}
                     delay={BLUR_FADE_DELAY * 13 + id * 0.05}
                   >
-                    <HackathonCard
+                    <CertificateCard
                       title={project.title}
                       description={project.description}
                       location={project.location}
@@ -213,8 +213,6 @@ export default function Page() {
           </div>
         </section>
       </div>
-
-
     </main>
   );
 }

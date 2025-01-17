@@ -10,7 +10,7 @@ interface Props {
   links?: string;
 }
 
-export function HackathonCard({
+export function CertificateCard({
   title,
   description,
   dates,

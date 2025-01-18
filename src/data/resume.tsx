@@ -6,7 +6,7 @@ export const DATA = {
   initials: "AG",
   url: "https://ayushmangarg.in",
   location: "Delhi, IN",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "",
   description:
     "Software Engineer trying to figure out technology ",
   summary: "I’m a passionate **Full Stack Developer** with a solid foundation in the **MERN stack**, **React Native**, and a growing interest in **Generative AI**. My programming journey began with Python back in school, which eventually sparked my enthusiasm for web development and machine learning during college. Over time, I’ve sharpened my skills in technologies like **HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, Next.js**, and more, allowing me to build scalable and user-friendly applications. I’ve had the privilege of working on impactful projects during my internships at **Matrixly AI** and **HDD Ventures**, where I focused on building and optimizing web applications.",
@@ -28,7 +28,8 @@ export const DATA = {
     "Python",
     "Tailwind",
     "Git",
-    "Github"
+    "Github",
+    "Dialogflow",
   ],
   navbar: [
     { href: "https://flowcv.com/resume/dus4f2v67p", icon: CircleUser, label: "Resume" },
@@ -60,10 +61,9 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "https://mail.google.com/mail/u/0/?fs=1&to=ayushmangarg929@gmail.com&tf=cm",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },

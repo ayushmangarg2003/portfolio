@@ -221,7 +221,7 @@ export const DATA = {
     },
   ],
 
-  hackathons: [
+  certificates: [
     {
       title: "Generative AI for Software Developers Specialization",
       dates: "March 2024",

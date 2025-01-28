@@ -8,7 +8,6 @@ const GET_USER_BLOG = `query Publication {
     title
     posts(
       first: 4
-      after: "NjQxZTc4NGY0M2NiMzc2YjAyNzNkMzU4XzIwMjMtMDMtMjVUMDQ6Mjc6NTkuNjQxWg=="
     ) {
       edges {
         node {

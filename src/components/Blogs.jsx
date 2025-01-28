@@ -27,12 +27,12 @@ const Blogs = () => {
                     <div
                         key={node.url}
                         onClick={() => window.open(node.url, "_blank")}
-                        className="p-6 rounded-2xl shadow-lg  cursor-pointer hover:shadow-xl transition-all transform hover:-translate-y-1 space-y-1"
+                        className=" rounded-2xl shadow-lg  cursor-pointer hover:shadow-xl transition-all transform hover:-translate-y-1 space-y-1"
                     >
-                        <h2 className="text-2xl font-semibold text-gray-800 ">
+                        <h2 className="text-xl font-semibold">
                             {node.title}
                         </h2>
-                        <p className="text-gray-600 text-justify leading-relaxed">{node.brief}</p>
+                        <p style={{ color: "#bbb", textAlign: "justify", WebkitLineClamp: 3, display: "-webkit-box", WebkitBoxOrient: "vertical", overflow: "hidden", textOverflow: "ellipsis" }} className="text-sm">{node.brief}</p>
                     </div>
                 ))
             ) : (

@@ -108,7 +108,7 @@ export default function Page() {
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     My Projects
                   </div>
-                  <h2 className="text-xl font-bold tracking-tighter sm:text-4xl">
+                  <h2 className="text-xl font-bold tracking-tighter sm:text-3xl">
                     Some of my Favourites
                   </h2>
                 </div>
@@ -220,33 +220,22 @@ export default function Page() {
         <section id="blogs">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
-              <div className="flex flex-col items-center justify-center text-center">
+              <div className="flex space-y-2 flex-col items-center justify-center text-center">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Blogs
                 </div>
+                <h2 className="text-xl font-bold tracking-tighter sm:text-3xl">
+                  My Latest Blogs
+                </h2>
               </div>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 12}>
-              <ul className="mb-4 ml-4 divide-y divide-dashed">
+              <ul className="mb-4 divide-y divide-dashed">
                 <Blogs />
-                {/* {DATA.hackathons.map((project, id) => (
-                  <BlurFade
-                    key={project.title + project.dates}
-                    delay={BLUR_FADE_DELAY * 13 + id * 0.05}
-                  >
-                    <CertificateCard
-                      title={project.title}
-                      description={project.description}
-                      location={project.location}
-                      dates={project.dates}
-                      image={project.image}
-                      links={project.links}
-                    />
-                  </BlurFade>
-                ))} */}
               </ul>
             </BlurFade>
-          </div>        </section>
+          </div>
+        </section>
       </div>
     </main>
   );

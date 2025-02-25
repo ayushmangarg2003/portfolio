@@ -29,7 +29,9 @@ export const DATA = {
     "Tailwind",
     "Git",
     "Github",
+    "Java",
     "Dialogflow",
+    "Supabase",
   ],
   navbar: [
     { href: "https://flowcv.com/resume/dus4f2v67p", icon: CircleUser, label: "Resume" },

@@ -13,7 +13,7 @@ export const DATA = {
 
   summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if you’d like to connect or discuss exciting opportunities! You can also connect with me through my socials like [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
 
-  avatarUrl: "/me.webp",
+  avatarUrl: "/me.jpg",
   skills: [
     "HTML",
     "CSS",

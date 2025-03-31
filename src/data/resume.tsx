@@ -81,7 +81,7 @@ export const DATA = {
   start: "Feb 2025",
   end: "June 2025",
   description:
-    "As an Engineering Trainee at Infosys, I am undergoing extensive training in Java, database management systems (DBMS), and software development principles. Working on an industry-driven project with mentors, I am applying Java, SQL, and Agile methodologies to solve real-world challenges. This experience is enhancing my coding skills, problem-solving abilities, and teamwork in a professional software development environment."
+    "As an Engineering Trainee at Infosys, I am undergoing extensive training in Java, SQL, and database management systems (DBMS), while working on an industry-driven project focused on C#, Entity Framework Core, and ASP.NET. Under the guidance of experienced mentors, I am applying SQL and Agile methodologies to solve real-world challenges. This experience is strengthening my coding skills, enhancing my problem-solving abilities, and refining my teamwork in a professional software development environment."
   },
     {
       company: "HDD Ventures",

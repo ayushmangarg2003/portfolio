@@ -185,18 +185,23 @@ export const DATA = {
     },
     {
       title: "True Blogs",
-      href: "https://github.com/ayushmangarg2003/TrueBlogs",
+      href: "https://github.com/ayushmangarg2003/TrueBlogsMySQL",
       dates: "",
       active: true,
       description:
-        "This is a Blogging website that has been developed using MongoDB, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering various features such as Login/Signup option.",
+        "This is a Blogging website that has been developed using MySQL, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering features such as Login/Signup option, and CRUD operations.",
       technologies: [
         "React.js",
         "Node.js",
         "Express.js",
-        "MongoDB",
+        "MySQL",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://blogs-my-sql.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/ayushmangarg2003/TrueBlogs",

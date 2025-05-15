@@ -212,29 +212,29 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Travel Arc",
-      href: "https://travel-arc.vercel.app/",
+      title: "College Mart",
+      href: "https://college-mart-amber.vercel.app/",
       dates: "",
       active: true,
       description:
-        "This website, developed using React Js, is a multi-page tour and travel platform. It serves as a demonstration of my proficiency in both React and CSS design. The ensures optimal user experience across a wide range of devices and screen sizes.",
+        "CollegeMart is a simple and intuitive marketplace designed exclusively for college University students to buy, sell, and exchange products. Built using Next.js and Supabase, the platform provides a seamless experience for listing and discovering items within the university community.",
       technologies: [
-        "React.js",
-        "CSS",
+        "Next.js",
+        "Supabase",
       ],
       links: [
         {
           type: "Website",
-          href: "https://travel-arc.vercel.app/",
+          href: "https://college-mart-amber.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/ayushmangarg2003/TravelArc",
+          href: "https://github.com/ayushmangarg2003/CollegeMart",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/TravelArc.webp",
+      image: "/collegemart.png",
       video:
         "",
     },

@@ -9,9 +9,9 @@ export const DATA = {
   locationLink: "",
   description:
     "Software Engineer trying to figure out technology ",
-  summary: "I’m a passionate **Full Stack Developer** with a solid foundation in the **MERN stack**, **React Native**, and a growing interest in **Generative AI**. My programming journey began with Python back in school, which eventually sparked my enthusiasm for web development and machine learning during college. Over time, I’ve sharpened my skills in technologies like **HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, Next.js**, and more, allowing me to build scalable and user-friendly applications. I’ve had the privilege of working on impactful projects during my internships at **Matrixly AI** and **HDD Ventures**, where I focused on building and optimizing web applications.",
+summary: "I’m a passionate **Full Stack Developer** and **Freelancer** with a solid foundation in the **MERN stack**, **React Native**, and a growing interest in **Generative AI**. My programming journey began with Python back in school, which eventually sparked my enthusiasm for web development and machine learning during college. Over time, I’ve expanded my skills in technologies like **HTML, CSS, JavaScript, ReactJS, MongoDB, ExpressJS, NodeJS, MySQL, Next.js, Supabase, Java,** and more, enabling me to build scalable and user-friendly applications. I’ve gained hands-on experience during my internships at **Matrixly AI**, **HDD Ventures**, and **Infosys**, where I worked on real-world projects like building a chat application (**ConnectoBox**) using **ASP.NET, Entity Framework, Java, Angular, Azure**, and **SQL**.",
 
-  summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if you’d like to connect or discuss exciting opportunities! You can also connect with me through my socials like [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
+summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if you’d like to connect or discuss exciting opportunities! You can also connect with me through my socials: [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
 
   avatarUrl: "/me.webp",
   skills: [
@@ -80,9 +80,8 @@ export const DATA = {
   logoUrl: "/infosys.webp",
   start: "Feb 2025",
   end: "June 2025",
-  description:
-    "As an Engineering Trainee at Infosys, I am undergoing extensive training in Java, SQL, and database management systems (DBMS), while working on an industry-driven project focused on C#, Entity Framework Core, and ASP.NET. Under the guidance of experienced mentors, I am applying SQL and Agile methodologies to solve real-world challenges. This experience is strengthening my coding skills, enhancing my problem-solving abilities, and refining my teamwork in a professional software development environment."
-  },
+  description: "As an Engineering Trainee at Infosys, I am undergoing extensive training in Java, SQL, and database management systems (DBMS), while working on an industry-driven project called ConnectoBox—a real-world chat application—where I focused on building service and application layers using ASP.NET, Entity Framework, Java, Angular, and Azure. Guided by experienced mentors, I applied Agile methodologies and SQL to address real-world challenges. This experience has strengthened my coding skills, improved my problem-solving abilities, and enhanced my collaboration skills in a professional software development environment.",
+},
     {
       company: "HDD Ventures",
       href: "",

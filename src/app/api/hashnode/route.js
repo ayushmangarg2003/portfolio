@@ -7,13 +7,35 @@ const GET_USER_BLOG = `query Publication {
     isTeam
     title
     posts(
-      first: 4
+      first: 3
     ) {
       edges {
         node {
+          id
           title
           brief
+          slug
           url
+          publishedAt
+          updatedAt
+          readTimeInMinutes
+          reactionCount
+          responseCount
+          views
+          coverImage {
+            url
+          }
+          tags {
+            id
+            name
+            slug
+          }
+          author {
+            name
+            username
+            profilePicture
+          }
+          featured
         }
       }
       pageInfo {
@@ -45,7 +67,7 @@ async function gql(query, variables = {}) {
 export async function GET() {
   try {
     const data = await gql(GET_USER_BLOG);
-    return NextResponse.json(data); // Return the API response as JSON
+    return NextResponse.json(data); 
   } catch (error) {
     return NextResponse.json(
       { error: "Failed to fetch data", details: error.message },

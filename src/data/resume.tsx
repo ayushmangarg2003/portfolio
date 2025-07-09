@@ -85,10 +85,16 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
   href: "https://www.infosys.com",
   location: "On-site, Mysore, India",
   title: "Engineering Trainee",
-  logoUrl: "/infosys.webp",
+  logoUrl: "/experience/infosys.webp",
   start: "Feb 2025",
   end: "June 2025",
-  description: "As an Engineering Trainee at Infosys, I am undergoing extensive training in Java, SQL, and database management systems (DBMS), while working on an industry-driven project called ConnectoBoxâ€”a real-world chat applicationâ€”where I focused on building service and application layers using ASP.NET, Entity Framework, Java, Angular, and Azure. Guided by experienced mentors, I applied Agile methodologies and SQL to address real-world challenges. This experience has strengthened my coding skills, improved my problem-solving abilities, and enhanced my collaboration skills in a professional software development environment.",
+  description: [
+    "Underwent intensive training in Java, SQL, and DBMS.",
+    "Built ConnectoBox, a real-world chat application for Infosys.",
+    "Developed service and application layers using ASP.NET, Entity Framework, Java, Angular, and Azure.",
+    "Applied Agile methodologies and SQL to solve real-world challenges.",
+    "Enhanced coding, problem-solving, and collaboration skills in a professional environment."
+  ],
 },
     {
       company: "HDD Ventures",
@@ -99,7 +105,13 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       logoUrl: "/",
       start: "Apr 2024",
       end: "Nov 2024",
-      description: "At HDD Ventures, I worked as a Software Developer Intern, where I led the development of multiple projects using the MERN stack and Firebase.My responsibilities included designing, coding, and deploying scalable web applications while ensuring they aligned with client requirements.I collaborated with cross - functional teams to deliver user- friendly solutions and optimized user experiences.This experience allowed me to hone my skills in full - stack development, problem - solving, and managing end - to - end product development cycles.",
+      description: [
+        "Led development of multiple MERN stack and Firebase projects.",
+        "Designed, coded, and deployed scalable web applications.",
+        "Ensured solutions aligned with client requirements.",
+        "Collaborated with cross-functional teams for user-friendly solutions.",
+        "Improved full-stack, problem-solving, and end-to-end product development skills."
+      ],
     },
     {
       company: "Matrixly AI",
@@ -107,11 +119,16 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       href: "https://www.linkedin.com/company/matrixly-ai",
       location: "Remote, Australia",
       title: "Frontend Developer Intern",
-      logoUrl: "/matrixly.webp",
+      logoUrl: "/experience/matrixly.webp",
       start: "Apr 2024",
       end: "June 2024",
-      description:
-        "At Matrixly AI, I worked as a Frontend Developer Intern, where I specialized in building and optimizing React components to enhance performance and maintainability. I implemented various user interface improvements, ensuring a seamless and engaging user experience for the application. Collaborating closely with the design and backend teams, I contributed to delivering responsive and interactive solutions, further strengthening my expertise in React.js and frontend development best practices.",
+      description: [
+        "Specialized in building and optimizing React components.",
+        "Enhanced performance and maintainability of the application.",
+        "Implemented user interface improvements for better UX.",
+        "Collaborated with design and backend teams for responsive solutions.",
+        "Strengthened expertise in React.js and frontend best practices."
+      ],
     }
   ],
 

@@ -43,7 +43,7 @@ export function ProjectCard({
 
     >
       <div 
-        className="relative overflow-hidden  cursor-pointer"
+        className="relative overflow-hidden cursor-pointer group"
         onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
@@ -55,7 +55,7 @@ export function ProjectCard({
           alt={title}
           width={500}
           height={300}
-          className="h-40 w-full object-cover object-top transition-all hover:scale-105"
+          className="h-40 w-full object-cover object-top transition-transform duration-300 ease-in-out scale-100 group-hover:scale-[1.3]"
         />
         <div className="absolute inset-0 bg-black/0 hover:bg-black/10 transition-colors duration-200" />
       </div>

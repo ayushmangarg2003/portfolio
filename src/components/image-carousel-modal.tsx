@@ -113,7 +113,7 @@ export function ImageCarouselModal({
                 alt={`${title} - Image ${currentIndex + 1}`}
                 width={1920}
                 height={1080}
-                className="object-cover max-w-[70vw] max-h-[70vh] rounded-lg shadow-lg"
+                className="object-contain max-w-[65vw] max-h-[75vh] rounded-xl shadow-lg"
                 priority
               />
             </div>

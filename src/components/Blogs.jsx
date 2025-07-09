@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Blogs = () => {
     const [BlogData, setBlogData] = useState(null);
@@ -41,9 +42,11 @@ const Blogs = () => {
                         {/* Cover Image */}
                         {node.coverImage?.url && (
                             <div className="relative overflow-hidden h-48 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-700 dark:to-gray-600">
-                                <img
+                                <Image
                                     src={node.coverImage.url}
                                     alt={node.title}
+                                    width={600}
+                                    height={192}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                     loading="lazy"
                                 />

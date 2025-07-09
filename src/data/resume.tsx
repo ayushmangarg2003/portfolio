@@ -173,8 +173,14 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
         title: "College Mart",
         description: "A marketplace for university students to buy, sell, and exchange products. Built with Next.js and Supabase.",
         techStack: ["Next.js", "Supabase"],
-        coverImage: "/collegemart/collegemart.png",
-        images: ["/collegemart/collegemart.png"],
+        coverImage: "/collegemart/1.webp",
+        images: [
+          "/collegemart/1.webp",
+          "/collegemart/2.png",
+          "/collegemart/3.webp",
+          "/collegemart/4.webp",
+          "/collegemart/5.png"
+        ],
       },
     ],
     personal: [
@@ -182,8 +188,15 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
         title: "Homestayz",
         description: "A MERN stack homestay booking platform for easy listing and renting.",
         techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Dialogflow"],
-        coverImage: "/homestayz/homestayz.webp",
-        images: ["/homestayz/homestayz.webp"],
+        coverImage: "/homestayz/1.png",
+        images: [
+          "/homestayz/1.png",
+          "/homestayz/2.png",
+          "/homestayz/3.webp",
+          "/homestayz/4.webp",
+          "/homestayz/5.webp",
+          "/homestayz/6.png"
+        ],
         githubLink: "https://github.com/ayushmangarg2003/Homestayz",
         liveLink: "https://homestayz.vercel.app/",
       },
@@ -192,7 +205,11 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
         description: "A full stack doctor booking app with a user-friendly interface and seamless experience.",
         techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
         coverImage: "/doccare/DocCARE.webp",
-        images: ["/doccare/DocCARE.webp"],
+        images: [
+          "/doccare/DocCARE.webp",
+          "/doccare/2.png",
+          "/doccare/3.png"
+        ],
         githubLink: "https://github.com/ayushmangarg2003/DocCare",
         liveLink: "https://book-doc.vercel.app/",
       },

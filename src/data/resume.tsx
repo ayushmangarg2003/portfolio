@@ -134,118 +134,44 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
     },
   ],
 
-  projects: [
-    {
-      title: "Homestayz",
-      href: "https://homestayz.vercel.app/",
-      dates: "",
-      active: true,
-      description:
-        "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
-      technologies: ["React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB", "Dialogflow"],
-      links: [
-        {
-          type: "Website",
-          href: "https://homestayz.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ayushmangarg2003/Homestayz",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "/homestayz.webp",
-      video:
-        "",
-    },
-    {
-      title: "DocCARE",
-      href: "https://book-doc.vercel.app/",
-      dates: "",
-      active: true,
-      description:
-        "DocCARE is a Full Stack Doctor Booking platform built using React.js and CSS in frontend and Node.js, Express.js and Mongo DB in backend. It showcases my skills in making user friendly interfaces for seamless user experience",
-      technologies: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://book-doc.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ayushmangarg2003/DocCare",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/DocCARE.webp",
-      video: "",
-    },
-    {
-      title: "True Blogs",
-      href: "https://github.com/ayushmangarg2003/TrueBlogsMySQL",
-      dates: "",
-      active: true,
-      description:
-        "This is a Blogging website that has been developed using MySQL, ReactJS, and ExpressJS. It is a comprehensive project that encompasses both front-end and back-end development, offering features such as Login/Signup option, and CRUD operations.",
-      technologies: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MySQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://blogs-my-sql.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ayushmangarg2003/TrueBlogs",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/TrueBlogs.webp",
-      video: "",
-    },
-    {
-      title: "College Mart",
-      href: "https://college-mart-amber.vercel.app/",
-      dates: "",
-      active: true,
-      description:
-        "CollegeMart is a simple and intuitive marketplace designed exclusively for college University students to buy, sell, and exchange products. Built using Next.js and Supabase, the platform provides a seamless experience for listing and discovering items within the university community.",
-      technologies: [
-        "Next.js",
-        "Supabase",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://college-mart-amber.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ayushmangarg2003/CollegeMart",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/collegemart.png",
-      video:
-        "",
-    },
-  ],
+  projects: {
+    delivered: [
+      {
+        title: "ConnectoBox",
+        description: "A real-world chat application built during my Infosys training. Focused on building service and application layers using ASP.NET, Entity Framework, Java, Angular, and Azure.",
+        techStack: ["ASP.NET", "Entity Framework", "Java", "Angular", "Azure", "SQL"],
+        coverImage: "/infosys.webp",
+        images: ["/infosys.webp", "/TravelArc.webp", "/homestayz.webp", "/DocCARE.webp"],
+      },
+      {
+        title: "College Mart",
+        description: "CollegeMart is a simple and intuitive marketplace designed exclusively for college University students to buy, sell, and exchange products. Built using Next.js and Supabase, the platform provides a seamless experience for listing and discovering items within the university community.",
+        techStack: ["Next.js", "Supabase"],
+        coverImage: "/collegemart.png",
+        images: ["/collegemart.png"],
+      },
+    ],
+    personal: [
+      {
+        title: "Homestayz",
+        description: "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
+        techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Dialogflow"],
+        coverImage: "/homestayz.webp",
+        images: ["/homestayz.webp"],
+        githubLink: "https://github.com/ayushmangarg2003/Homestayz",
+        liveLink: "https://homestayz.vercel.app/",
+      },
+      {
+        title: "DocCARE",
+        description: "DocCARE is a Full Stack Doctor Booking platform built using React.js and CSS in frontend and Node.js, Express.js and Mongo DB in backend. It showcases my skills in making user friendly interfaces for seamless user experience",
+        techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+        coverImage: "/DocCARE.webp",
+        images: ["/DocCARE.webp"],
+        githubLink: "https://github.com/ayushmangarg2003/DocCare",
+        liveLink: "https://book-doc.vercel.app/",
+      },
+    ],
+  },
 
   certificates: [
     {

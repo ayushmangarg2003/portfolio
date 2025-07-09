@@ -37,13 +37,13 @@ export function ProjectCard({
   return (
     <Card
       className={cn(
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full",
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full bg-white dark:bg-zinc-900",
         className
       )}
 
     >
       <div 
-        className="relative overflow-hidden cursor-pointer"
+        className="relative overflow-hidden  cursor-pointer"
         onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
@@ -70,7 +70,7 @@ export function ProjectCard({
       </CardHeader>
       
       <CardContent className="px-4 flex-1">
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1 mt-6">
           {techStack.map((tech) => (
             <Badge
               key={tech}

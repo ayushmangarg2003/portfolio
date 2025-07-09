@@ -68,14 +68,13 @@ export function ImageCarouselModal({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] w-screen h-screen">
+    <div className="fixed bottom-0 left-0 w-[100vw] h-[100vh] z-[9999] flex items-center justify-center">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black/90 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/40 backdrop-blur-sm"
         onClick={onClose}
       />
-      
-      {/* Modal */}
+      {/* Modal Content */}
       <div className="relative z-10 w-full h-full flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between p-4 text-white">
@@ -87,10 +86,9 @@ export function ImageCarouselModal({
             <X className="h-5 w-5" />
           </button>
         </div>
-        
-        {/* Image Container */}
-        <div className="flex-1 flex items-center justify-center p-4">
-          <div className="relative w-full h-full max-w-7xl max-h-full">
+        {/* Image Carousel */}
+        <div className="flex-1 flex items-center justify-center">
+          <div className="relative w-full h-full flex items-center justify-center">
             {/* Navigation Buttons */}
             {images.length > 1 && (
               <>
@@ -108,7 +106,6 @@ export function ImageCarouselModal({
                 </button>
               </>
             )}
-            
             {/* Image */}
             <div className="w-full h-full flex items-center justify-center">
               <Image
@@ -116,13 +113,12 @@ export function ImageCarouselModal({
                 alt={`${title} - Image ${currentIndex + 1}`}
                 width={1920}
                 height={1080}
-                className="max-w-full max-h-full object-contain"
+                className="object-cover max-w-[70vw] max-h-[70vh] rounded-lg shadow-lg"
                 priority
               />
             </div>
           </div>
         </div>
-        
         {/* Indicators */}
         {images.length > 1 && (
           <div className="flex justify-center items-center gap-2 p-4">
@@ -140,7 +136,6 @@ export function ImageCarouselModal({
             ))}
           </div>
         )}
-        
         {/* Image Counter */}
         {images.length > 1 && (
           <div className="text-center text-white/80 text-sm pb-4">

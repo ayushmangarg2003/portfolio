@@ -13,7 +13,7 @@ summary: "Iâ€™m a passionate **Full Stack Developer** and **Freelancer** with a 
 
 summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ€™d like to connect or discuss exciting opportunities! You can also connect with me through my socials: [Twitter](https://twitter.com/AyushmanGarg4), [LinkedIn](https://linkedin.com/in/ayushmangarg), and [Peerlist](https://peerlist.io/ayushmangarg).",
 
-  avatarUrl: "/me.webp",
+  avatarUrl: "/profile/me.webp",
   skills: [
   "HTML",
   "CSS",
@@ -120,7 +120,7 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       school: "Maharaja Agrasen Institue of Technology",
       href: "https://mait.ac.in/",
       degree: "Bachelors of Technology, Information Technology",
-      logoUrl: "/mait.webp",
+      logoUrl: "/education/mait.webp",
       start: "2021",
       end: "2025",
     },
@@ -128,7 +128,7 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       school: "Modern Public School",
       href: "http://www.mpsshalimarbagh.com/",
       degree: "Class 12th",
-      logoUrl: "/mps.webp",
+      logoUrl: "/education/mps.webp",
       start: "2020",
       end: "2021",
     },
@@ -138,35 +138,44 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
     delivered: [
       {
         title: "ConnectoBox",
-        description: "A real-world chat application built during my Infosys training. Focused on building service and application layers using ASP.NET, Entity Framework, Java, Angular, and Azure.",
+        description: "A real-world chat app built at Infosys, focusing on scalable service and application layers using modern enterprise tech.",
         techStack: ["ASP.NET", "Entity Framework", "Java", "Angular", "Azure", "SQL"],
-        coverImage: "/infosys.webp",
-        images: ["/infosys.webp", "/TravelArc.webp", "/homestayz.webp", "/DocCARE.webp"],
+        coverImage: "/connectobox/1.png",
+        images: [
+          "/connectobox/1.png",
+          "/connectobox/2.png",
+          "/connectobox/3.png",
+          "/connectobox/4.png",
+          "/connectobox/5.png",
+          "/connectobox/6.png",
+          "/connectobox/7.png",
+          "/connectobox/8.png"
+        ],
       },
       {
         title: "College Mart",
-        description: "CollegeMart is a simple and intuitive marketplace designed exclusively for college University students to buy, sell, and exchange products. Built using Next.js and Supabase, the platform provides a seamless experience for listing and discovering items within the university community.",
+        description: "A marketplace for university students to buy, sell, and exchange products. Built with Next.js and Supabase.",
         techStack: ["Next.js", "Supabase"],
-        coverImage: "/collegemart.png",
-        images: ["/collegemart.png"],
+        coverImage: "/collegemart/collegemart.png",
+        images: ["/collegemart/collegemart.png"],
       },
     ],
     personal: [
       {
         title: "Homestayz",
-        description: "Homestays is an innovative Homestay booking platform developed using the MERN Stack. The platform allows users to easily Create, Read, and Update Homestays. With its intuitive design and efficient user experience, Homestays simplifies the process of booking and renting.",
+        description: "A MERN stack homestay booking platform for easy listing and renting.",
         techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Dialogflow"],
-        coverImage: "/homestayz.webp",
-        images: ["/homestayz.webp"],
+        coverImage: "/homestayz/homestayz.webp",
+        images: ["/homestayz/homestayz.webp"],
         githubLink: "https://github.com/ayushmangarg2003/Homestayz",
         liveLink: "https://homestayz.vercel.app/",
       },
       {
         title: "DocCARE",
-        description: "DocCARE is a Full Stack Doctor Booking platform built using React.js and CSS in frontend and Node.js, Express.js and Mongo DB in backend. It showcases my skills in making user friendly interfaces for seamless user experience",
+        description: "A full stack doctor booking app with a user-friendly interface and seamless experience.",
         techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
-        coverImage: "/DocCARE.webp",
-        images: ["/DocCARE.webp"],
+        coverImage: "/doccare/DocCARE.webp",
+        images: ["/doccare/DocCARE.webp"],
         githubLink: "https://github.com/ayushmangarg2003/DocCare",
         liveLink: "https://book-doc.vercel.app/",
       },
@@ -181,7 +190,7 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       description:
         "IBM",
       image:
-        "/ibm.webp",
+        "/certificates/ibm.webp",
       links: "https://coursera.org/share/cc391d4b518949d92919e8454fd7bc94",
     },
     {
@@ -191,7 +200,7 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
       description:
         "IBM",
       image:
-        "/ibm.webp",
+        "/certificates/ibm.webp",
       links: "https://www.coursera.org/account/accomplishments/verify/265T5JA3FAK9",
     },
     {
@@ -202,7 +211,7 @@ summary2: "Feel free to reach out to me at **ayushmangarg929@gmail.com** if youâ
         "Gymnasium",
       icon: "public",
       image:
-        "/gymnasium.webp",
+        "/certificates/gymnasium.webp",
       links: "https://www.credential.net/3611f2e5-78ba-4f54-b4b2-c3376dae275f#gs.3iebig",
     },
   ],

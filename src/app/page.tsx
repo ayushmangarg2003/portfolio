@@ -127,7 +127,7 @@ export default function Page() {
 
       <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" className="AboutSection">
         <section id="projects">
-          <div className="space-y-16 w-full">
+          <div className="space-y-16 my-12 w-full">
             {/* Projects Delivered */}
             <div className="space-y-8">
               <BlurFade delay={BLUR_FADE_DELAY * 14}>
@@ -154,41 +154,6 @@ export default function Page() {
                       techStack={project.techStack}
                       coverImage={project.coverImage}
                       images={project.images}
-                      onImageClick={() => handleImageClick(project.images, project.title)}
-                    />
-                  </BlurFade>
-                ))}
-              </div>
-            </div>
-
-            {/* Personal Projects */}
-            <div className="space-y-8">
-              <BlurFade delay={BLUR_FADE_DELAY * 16}>
-                <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <div className="space-y-2">
-                    <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                      Personal Projects
-                    </div>
-                    <h2 className="text-xl font-bold tracking-tighter sm:text-3xl">
-                      Side Projects & Experiments
-                    </h2>
-                  </div>
-                </div>
-              </BlurFade>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 max-w-4xl mx-auto">
-                {DATA.projects.personal.map((project, id) => (
-                  <BlurFade
-                    key={project.title}
-                    delay={BLUR_FADE_DELAY * 17 + id * 0.05}
-                  >
-                    <ProjectCard
-                      title={project.title}
-                      description={project.description}
-                      techStack={project.techStack}
-                      coverImage={project.coverImage}
-                      images={project.images}
-                      githubLink={project.githubLink}
-                      liveLink={project.liveLink}
                       onImageClick={() => handleImageClick(project.images, project.title)}
                     />
                   </BlurFade>

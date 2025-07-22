@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import ReactMarkdown from 'react-markdown';
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -103,11 +104,20 @@ export const ResumeCard = ({
               {Array.isArray(description) ? (
                 <div className="space-y-1">
                   {description.map((point, idx) => (
-                    <div key={idx} className="pl-1 text-xs text-muted-foreground">- {point}</div>
+                    <div key={idx} className="pl-1 text-xs text-muted-foreground flex items-start">
+                      <span className="mr-1">-</span>
+                      <ReactMarkdown components={{p: ({node, ...props}) => <span {...props} />}}>
+                        {typeof point === 'string' ? point : String(point)}
+                      </ReactMarkdown>
+                    </div>
                   ))}
                 </div>
               ) : (
-                <span>{description}</span>
+                <> {typeof description === 'string' && (
+                  <ReactMarkdown components={{p: ({node, ...props}) => <span {...props} />}}>
+                    {description}
+                  </ReactMarkdown>
+                )} </>
               )}
             </motion.div>
           )}
